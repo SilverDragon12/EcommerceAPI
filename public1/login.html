@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - E-commerce App</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+    <section class="login-page">
+        <h2>Login</h2>
+        <form class="form" id="login-form">
+            <div class="form-row">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+            <div class="form-row">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" name="password" class="form-input" required>
+            </div>
+            <button type="submit" class="btn btn-block">Login</button>
+            <div class="form-alert"></div>
+        </form>
+        <p>Don't have an account? <a href="register.html">Register here</a></p>
+    </section>
+
+    <script src="login.js"></script>
+</body>
+</html>

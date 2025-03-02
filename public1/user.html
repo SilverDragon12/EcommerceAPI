@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" id="logout">Logout</a></li>
+        </ul>
+    </nav>
+
+    <section class="user-dashboard">
+        <h2>Welcome, <span id="username">User</span></h2>
+        <p>Email: <span id="user-email">example@example.com</span></p>
+
+        <h3>Your Orders</h3>
+        <table id="orders-table">
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Total Price</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Orders will be populated here -->
+            </tbody>
+        </table>
+
+        <h3>Your Purchased Products</h3>
+        <div id="products-list">
+            <!-- Products will be listed here -->
+        </div>
+    </section>
+
+    <script src="user.js"></script>
+</body>
+</html>
